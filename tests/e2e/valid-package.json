@@ -1,0 +1,16 @@
+{
+  "name": "e2e-valid-package",
+  "version": "1.0.0",
+  "description": "A valid package.json for E2E testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "test",
+    "e2e"
+  ],
+  "author": "Test User",
+  "license": "MIT"
+}

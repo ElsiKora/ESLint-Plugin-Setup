@@ -1,0 +1,16 @@
+{
+  "name": "valid-test-package",
+  "version": "1.0.0",
+  "description": "A valid package.json for testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "test",
+    "valid"
+  ],
+  "author": "Test Author",
+  "license": "MIT"
+}

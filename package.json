@@ -1,0 +1,41 @@
+{
+  "name": "eslint-plugin-package-json-validator",
+  "version": "1.0.0",
+  "description": "ESLint plugin that validates package.json files for required fields",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run",
+    "test:unit": "vitest run tests/plugin.test.ts",
+    "test:watch": "vitest",
+    "test:eslint": "vitest run tests/eslint-plugin.test.ts",
+    "test:e2e": "vitest run tests/e2e.test.ts",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "package.json",
+    "validation"
+  ],
+  "author": "ESLint Plugin Creator",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@eslint/json": "^0.11.0",
+    "@types/node": "^22.13.10",
+    "eslint": "^9.22.0",
+    "jsonc-eslint-parser": "^2.4.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

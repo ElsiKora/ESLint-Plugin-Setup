@@ -1,0 +1,6 @@
+{
+  "name": "e2e-invalid-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs"
+}
